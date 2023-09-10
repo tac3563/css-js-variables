@@ -1,0 +1,29 @@
+What are we building?
+
+- A slider which blurs the background image.
+
+What are the key parts of the project?
+
+- Having a background image
+- Having a slider
+- Updating the blur property on the background image based on the slider value.
+
+How would you accomplish this?
+
+- Set a blur on BG image which is assigned to a CSS variable.
+- Create a slider (input type=range) with a default value.
+- Add an event listener to the slider whenever the value changes
+- Create a handler function for the event which updates the CSS variable's value to match the slider's value. 
+    - How to update the CSS Variable?
+    - 
+
+
+How would i code this?
+
+blurSlider = Input Element
+
+blurSlider add event lister -> on change 
+
+event handler function {
+    
+}

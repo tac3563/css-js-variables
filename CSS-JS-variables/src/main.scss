@@ -1,0 +1,12 @@
+:root {
+    --blur-filter: 10px;
+}
+
+body {
+
+   img {
+    filter: blur(var(--blur-filter));
+    width: 100%;
+    height: auto;
+   }
+}
